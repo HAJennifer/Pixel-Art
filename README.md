@@ -10,3 +10,4 @@ Users are able to:
 - Click a cell in the grid to fill that cell with the chosen color.
 Our primary task was to implement the makeGrid() function, that dynamically created a grid that the user can interact with.
 # Let's try my version out and let's get creative!
+http://htmlpreview.github.io/?https://github.com/HAJennifer/Pixel-Art/blob/master/index.html
