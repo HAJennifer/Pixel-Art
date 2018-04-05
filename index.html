@@ -1,0 +1,48 @@
+<html>
+<head>
+ <title>Pixel Art Maker!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <img src="https://78.media.tumblr.com/8c718ca3b3afb45b5eb8cbd4df6146f6/tumblr_o0f40lvzle1qcz28go2_r1_500.gif" alt="">
+	<h1>Pixel Art Maker</h1>
+  <h3>- Udacity project by Jennifer Albert -</h3>
+  <h4>Description</h4>
+  <ul class="descript">
+    <li> Choose the grid size then press create</li>
+    <li>Pick a color of your choice</li>
+    <li>Click on the tile to color it</li>
+    <li>Double click to remove the color from the tile </li>
+    <li>Click delete to start over</li>
+    <li>Lets get creative!</li>
+  </ul>
+	<h2>Choose Grid Size</h2>
+	<form id="sizePicker">
+		Grid Height:
+		<input type="number" id="inputHeight" name="height" min="1" value="10">
+		Grid Width:
+		<input type="number" id="inputWidth" name="width" min="1" value="10">
+		<input type="submit" id="submitButton" value="Create">
+    
+  </form> 
+	<h2>Pick A Color</h2>
+  <input id="image" type="image" width="30" height="30" alt="Pick A Color" 
+   src="https://d30y9cdsu7xlg0.cloudfront.net/png/117544-200.png" >
+
+	<input type="color" id="colorPicker">
+	<h2>Design Canvas</h2>
+	<table id="pixelCanvas"></table>
+  <button id="clearButton" value="Clear Canvas"> <i class="fa fa-eraser"> Delete </i></button>
+ 
+
+	<script src="main.js"></script>
+
+</body>
+</html>
